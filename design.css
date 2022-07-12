@@ -1,0 +1,183 @@
+
+
+#fnr {
+    text-align: center;
+    color: rgb(230, 230, 230);
+    font-size: 40px;
+    background-color: rgba( 0, 0, 0, 30%);
+    border-radius: 10px 10px;
+}
+
+#nick, #carac {
+    margin-left: 10px;
+}
+
+body {
+    background-image:url(img/csgo.webp);
+    background-size: cover;
+    }
+
+#carac {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    word-wrap: wrap;   
+    font-size: 30px;
+}
+ul {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-style: oblique;
+    list-style: none;
+}
+button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-style: initial;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container img {
+    height: 90%;
+    width: fit-content;
+}
+
+#print {
+    transition: transform .2s;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  #print:hover {
+    transform: scale(1.2);
+  }
+
+  #print2 {
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  #print2:hover {
+    transform: scale(1.2);
+  }
+
+  #print3 {
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+#print, #print2, #print3 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 500px;  
+}
+
+  #print3:hover {
+    transform: scale(1.2);
+  }
+
+.header2 {
+    justify-content: center;
+}
+
+.insta div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container2 img {
+    height: 45px;
+    width: fit-content;
+}
+
+.container2 div {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#insta {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    }
+
+#insta:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+#twitter {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    }
+
+#twitter:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+#logo {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    }
+
+#logo:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.insta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+#nick {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    word-wrap: unset;   
+    font-size: 30px;
+}
+
+
+
